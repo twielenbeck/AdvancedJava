@@ -1,14 +1,11 @@
 package us.mattgreen;
 
-import java.util.Scanner;
-
 public class Main {
     private static String line ="";
     private static String rating ="";
     private final static FileInput cardAccts = new FileInput("movie_cards.csv");
     private final static FileInput cardPurchases = new FileInput("movie_purchases.csv");
     private final static FileInput movieRatings = new FileInput("movie_rating.csv");
-    private static Scanner keyboard = new Scanner(System.in);
     //call another file
     public static void main(String[] args) {
         String line;
